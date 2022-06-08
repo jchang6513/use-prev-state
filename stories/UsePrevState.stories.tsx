@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { usePrevState } from '../src';
+import usePrevState from '../src';
 import styled from 'styled-components';
 
 const meta: Meta = {

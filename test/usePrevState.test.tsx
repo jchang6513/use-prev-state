@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import { act } from 'react-dom/test-utils';
-import { usePrevState } from '../src';
+import usePrevState from '../src';
 
 const TestComp = () => {
   const [count, setCount] = useState(0);
